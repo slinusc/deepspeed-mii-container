@@ -1,6 +1,6 @@
 # DeepSpeed-MII OpenAI-Compatible Docker Container
 
-This repository provides a **Dockerfile** and instructions to either **build locally** or **pull a prebuilt image** from Docker Hub. The container runs [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) with an OpenAI-API-compatible endpoint. Once running, you can load any Hugging Face model (e.g., `mistralai/Mistral-7B-Instruct-v0.3`) or simply use the preloaded image on Docker Hub to interact via `/v1/chat/completions` just like you would with the official OpenAI API.
+This repository provides a **Dockerfile** and instructions to **pull a prebuilt image** from Docker Hub to run a Deepspeed-MII server to serve your locally deployed LLM. The container runs [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) with an OpenAI-API-compatible endpoint. Launching for the first time can take around 5 minutes. Once running, you can load any Hugging Face model (e.g., `mistralai/Mistral-7B-Instruct-v0.3`) or simply use the preloaded image on Docker Hub to interact via `/v1/chat/completions` just like you would with the official OpenAI API.
 
 ---
 
